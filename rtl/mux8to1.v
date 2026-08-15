@@ -14,6 +14,6 @@ case(s)
     3'b101 : y = i5;
     3'b110 : y = i6;
     3'b111 : y = i7;
-    default :y = 1'bxxxx;
+    default :y = 1'bx;
 endcase
 endmodule
